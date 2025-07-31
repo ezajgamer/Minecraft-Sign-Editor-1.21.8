@@ -29,28 +29,6 @@ One-click Copy of the generated command to the clipboard.
 
 Signature & Version: displays “Ezaj Gamer” at the bottom along with version (0.6.1) and today’s date.
 
-💻 Requirements
-
-Python 3.7 or newer
-
-PySide6 (pip install PySide6)
-
-🚀 Running the Application
-
-pip install -r requirements.txt   # Install dependencies
-python "sign editor V0.6.1.py"       # Launch the GUI
-
-📦 Building an Executable
-
-PyInstaller:
-
-pyinstaller --onefile --windowed --name "sign editor V0.6.1" "sign editor V0.6.1.py"
-
-Nuitka:
-
-pip install zstandard nuitka
-python -m nuitka --standalone --onefile --windows-console-mode=disable --enable-plugin=pyside6 "sign editor V0.6.1.py"
-
 ✨ How to Use
 
 Launch the application.
@@ -99,28 +77,6 @@ Paste the command in Minecraft to place your custom sign instantly.
 نسخ الأمر الناتج للوحة الحافظة بنقرة واحدة.
 
 التوقيع والإصدار: يظهر اسم "Ezaj Gamer" أسفل الواجهة مع رقم الإصدار (0.6.1) وتاريخ اليوم.
-
-💻 المتطلبات
-
-Python 3.7 أو أحدث
-
-PySide6 (يمكن تثبيتها بـ pip install PySide6)
-
-🚀 طريقة التشغيل
-
-pip install -r requirements.txt   # لتثبيت PySide6
-python "sign editor V0.6.1.py"       # لتشغيل التطبيق
-
-📦 بناء exe
-
-PyInstaller:
-
-pyinstaller --onefile --windowed --name "sign editor V0.6.1" "sign editor V0.6.1.py"
-
-Nuitka:
-
-pip install zstandard nuitka
-python -m nuitka --standalone --onefile --windows-console-mode=disable --enable-plugin=pyside6 "sign editor V0.6.1.py"
 
 ✨ الاستخدام
 
